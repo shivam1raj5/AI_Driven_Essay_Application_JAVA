@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AI_Driven_Essay_Application_JAVA"
         tools:targetApi="31">
         <activity
+            android:name=".output"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
