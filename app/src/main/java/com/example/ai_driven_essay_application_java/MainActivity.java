@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 String language = lang.getSelectedItem().toString();
                 String wordsize = size.getText().toString();
 
-                String final_question = question+" "+tags+" "+language+" "+wordsize+" "+"words";
+                String final_question = "Write an essay on "+question+" include "+tags+" in "+language+" language in "+wordsize+" words.";
                 Intent intent = new Intent(MainActivity.this, output.class);
                 intent.putExtra("question",final_question);
                 startActivity(intent);
